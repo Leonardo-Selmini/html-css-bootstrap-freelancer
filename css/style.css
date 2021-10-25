@@ -2,7 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 00000000 HEADER - nav~jumbo 00000000 */
+/* 00000000 HEADER 00000000 */
 
 /* HEADER - navbar */
 nav.navbar {
@@ -29,6 +29,10 @@ nav.navbar a.navbar-brand {
 
 .navbar-toggler-icon {
   filter: invert(1);
+}
+
+nav.navbar .offcanvas-body a.nav-link {
+  color: white;
 }
 
 /* HEADER - jumbo */
@@ -66,7 +70,7 @@ nav.navbar a.navbar-brand {
   background-color: darkorange;
 }
 
-/* 00000000 FOOTER - contact~info 00000000 */
+/* 00000000 FOOTER 00000000 */
 
 /* FOOTER - contact section */
 .debug #contact-header {
