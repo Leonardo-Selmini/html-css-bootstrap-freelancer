@@ -65,6 +65,15 @@ nav.navbar .offcanvas-body a.nav-link {
 }
 
 /* MAIN - about section */
+#about {
+  background-color: #1abc9c;
+}
+
+#about .container {
+  width: 70%;
+  max-width: 800px;
+}
+
 .debug #about-header {
   height: 150px;
   background-color: lightcoral;
