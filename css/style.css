@@ -37,3 +37,15 @@ nav.navbar a.navbar-brand {
   background-color: #1abc9c;
   margin-top: 89.59px;
 }
+
+/* 00000000 MAIN 00000000 */
+
+/* MAIN - portfolio section */
+.debug #portfolio-header {
+  min-height: 160px;
+  background-color: lightpink;
+}
+
+.debug .row div img {
+  width: 100%;
+}
