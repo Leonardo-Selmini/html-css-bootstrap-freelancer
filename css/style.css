@@ -92,6 +92,11 @@ nav.navbar .offcanvas-body a.nav-link {
 /* 00000000 FOOTER 00000000 */
 
 /* FOOTER - contact section */
+#contact .container {
+  width: 70%;
+  max-width: 800px;
+}
+
 .debug #contact-header {
   height: 150px;
   background-color: darkred;
@@ -107,8 +112,11 @@ nav.navbar .offcanvas-body a.nav-link {
   background-color: #3a546d;
 }
 
+#info .container {
+  max-width: 900px;
+}
+
 .debug #info .info-item {
-  width: 90%;
   height: 150px;
   background-color: deeppink;
   margin: 0 auto;
