@@ -49,3 +49,19 @@ nav.navbar a.navbar-brand {
 .debug .row div img {
   width: 100%;
 }
+
+/* MAIN - about section */
+.debug #about-header {
+  height: 150px;
+  background-color: lightcoral;
+}
+
+.debug .ms_text {
+  height: 200px;
+  background-color: lightskyblue;
+}
+
+.debug #download {
+  height: 100px;
+  background-color: darkorange;
+}
