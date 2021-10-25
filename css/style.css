@@ -65,3 +65,14 @@ nav.navbar a.navbar-brand {
   height: 100px;
   background-color: darkorange;
 }
+
+/* 00000000 FOOTER - contact~info 00000000 */
+.debug #contact-header {
+  height: 150px;
+  background-color: darkred;
+}
+
+.debug #contact-main {
+  height: 500px;
+  background-color: darkturquoise;
+}
