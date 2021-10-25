@@ -39,12 +39,22 @@ nav.navbar .offcanvas-body a.nav-link {
 .debug #jumbo {
   height: 500px;
   background-color: #1abc9c;
-  margin-top: 89.59px;
+  margin-top: 89px;
+}
+
+#jumbo .container {
+  max-width: 540px;
+  height: 100%;
+  background-color: green;
 }
 
 /* 00000000 MAIN 00000000 */
 
 /* MAIN - portfolio section */
+#portfolio {
+  max-width: 960px;
+}
+
 .debug #portfolio-header {
   min-height: 160px;
   background-color: lightpink;
