@@ -67,6 +67,8 @@ nav.navbar a.navbar-brand {
 }
 
 /* 00000000 FOOTER - contact~info 00000000 */
+
+/* FOOTER - contact section */
 .debug #contact-header {
   height: 150px;
   background-color: darkred;
@@ -75,4 +77,21 @@ nav.navbar a.navbar-brand {
 .debug #contact-main {
   height: 500px;
   background-color: darkturquoise;
+}
+
+/* FOOTER - info section */
+.debug #info {
+  background-color: #3a546d;
+}
+
+.debug #info .info-item {
+  width: 90%;
+  height: 150px;
+  background-color: deeppink;
+  margin: 0 auto;
+}
+
+.debug #copyright {
+  height: 100px;
+  background-color: #2c3e50;
 }
