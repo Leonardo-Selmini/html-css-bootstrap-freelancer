@@ -2,6 +2,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+hr {
+  width: 70px;
+  border: 2px solid;
+  opacity: 1;
+}
+
 /* 00000000 HEADER 00000000 */
 
 /* HEADER - navbar */
@@ -27,22 +33,12 @@ nav.navbar a.navbar-brand {
   max-width: 250px;
 }
 
-#jumbo .col hr {
-  width: 70px;
-  border: 2px solid white;
-  opacity: 1;
-}
-
 /* 00000000 MAIN 00000000 */
 
 /* MAIN - portfolio section */
-.debug #portfolio-header {
-  height: 160px;
-  background-color: lightpink;
-}
-
-.debug .row div img {
+#gallery img {
   width: 100%;
+  border-radius: 12px;
 }
 
 /* MAIN - about section */
