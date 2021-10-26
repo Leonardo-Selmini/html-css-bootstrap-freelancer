@@ -24,7 +24,7 @@
   <header>
 
     <!-- HEADER - navbar -->
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-md">
       <div class="container-fluid container-md">
         <a class="navbar-brand text-uppercase" href="#">start bootstrap</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +52,7 @@
     </nav>
 
     <!-- HEADER - jumbo -->
-    <section id="jumbo" class="container-fluid">
+    <section id="jumbo" class="container colorsea">
       <div class="row">
         <div class="col text-center py-4">
           <img class="mb-3" src="img/avatar.svg" alt="avatar illustration">
@@ -108,7 +108,7 @@
     </section>
 
     <!-- MAIN - about section -->
-    <section id="about" class="text-white">
+    <section id="about" class="colorsea text-white">
       <div class="container py-4">
         <div class="row">
           <div id="about-header" class="text-center">
@@ -162,7 +162,7 @@
             <!-- message input -->
             <textarea class="w-100 p-3 border-0 border-bottom" rows="6" placeholder="Message"></textarea>
             <!-- send button -->
-            <a class="btn fs-4 text-white mt-2" href="#" role="button">Send</a>
+            <a class="btn fs-4s text-white colorsea mt-2" href="#" role="button">Send</a>
           </div>
         </div>
       </div>
@@ -173,16 +173,35 @@
   <!-- 00000000 FOOTER 00000000 -->
   <footer>
   
-    <!-- FOOTER - info section -->
-    <section id="info" class="container-fluid">
+    <!-- FOOTER top - info section -->
+    <section id="info">
       <div class="container">
-        <div class="row row-cols-1 row-cols-md-3">
-          <div class="info-item"></div>
-          <div class="info-item"></div>
-          <div class="info-item"></div>
+        <div class="row row-cols-1 row-cols-md-3 text-center text-white">
+          <!-- location item -->
+          <div class="info-item my-5">
+            <h5 class="text-uppercase">Location</h5>
+            <p>2215 John Daniel Drive Clark, MO 54243</p>
+          </div>
+          <!-- social item -->
+          <div class="info-item my-5">
+            <h5 class="text-uppercase">around the web</h5>
+            <div id="social">
+                <i class="fab fa-facebook-f fs-3 m-1 p-3 border rounded-circle"></i>
+                <i class="fab fa-google-plus-g fs-3 m-1 p-3 border rounded-circle"></i>
+                <i class="fab fa-twitter fs-3 m-1 p-3 border rounded-circle"></i>
+                <i class="fab fa-linkedin-in fs-3 m-1 p-3 border rounded-circle"></i>
+            </div>
+          </div>
+          <!-- about item -->
+          <div class="info-item my-5">
+            <h5 class="text-uppercase">about freelancer</h5>
+            <p>Freelance is a free to use, open source Bootstrap theme created by <span style="color: #1abc9c;">Start Bootstrap</span>.</p>
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- FOOTER bottom - copyright section -->
     <div id="copyright" class="container-fluid">
 
     </div>

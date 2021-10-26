@@ -8,6 +8,9 @@ hr {
   opacity: 1;
 }
 
+.colorsea {
+  background-color: #1abc9c;
+}
 /* 00000000 HEADER 00000000 */
 
 /* HEADER - navbar */
@@ -23,11 +26,6 @@ nav.navbar a.navbar-brand {
 } 
 
 /* HEADER - jumbo */
-#jumbo {
-  background-color: #1abc9c;
-  margin-top: 89px;
-}
-
 #jumbo .col img {
   width: 50%;
   max-width: 250px;
@@ -41,30 +39,15 @@ nav.navbar a.navbar-brand {
   border-radius: 12px;
 }
 
-/* MAIN - about section */
-#about {
-  background-color: #1abc9c;
-}
-
-/* MAIN - contact section */
-#contact-main a {
-  background-color: #1abc9c;
-}
 /* 00000000 FOOTER 00000000 */
 
 /* FOOTER - info section */
-.debug #info {
+#info {
   background-color: #3a546d;
 }
 
-#info .container {
-  max-width: 900px;
-}
-
-.debug #info .info-item {
-  height: 150px;
-  background-color: deeppink;
-  margin: 0 auto;
+#social i {
+  width: 60px;
 }
 
 .debug #copyright {
