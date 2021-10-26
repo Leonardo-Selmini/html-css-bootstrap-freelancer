@@ -11,27 +11,17 @@ hr {
 .colorsea {
   background-color: #1abc9c;
 }
-/* 00000000 HEADER 00000000 */
 
-/* HEADER - navbar */
-nav.navbar {
+.no-adaptive {
+  height: 100px;
   background-color: #2c3e50;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
-
-nav.navbar a.navbar-brand {
-  font-size: 1.3rem;
-  font-weight: 900;
-} 
 
 /* HEADER - jumbo */
 #jumbo .col img {
   width: 50%;
   max-width: 250px;
 }
-
-/* 00000000 MAIN 00000000 */
 
 /* MAIN - portfolio section */
 #gallery img {
@@ -48,9 +38,5 @@ nav.navbar a.navbar-brand {
 
 #social i {
   width: 60px;
-}
-
-.debug #copyright {
-  height: 100px;
-  background-color: #2c3e50;
+  margin: 0.3rem;
 }
