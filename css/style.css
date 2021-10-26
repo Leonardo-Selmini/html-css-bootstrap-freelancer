@@ -46,23 +46,11 @@ nav.navbar a.navbar-brand {
   background-color: #1abc9c;
 }
 
+/* MAIN - contact section */
+#contact-main a {
+  background-color: #1abc9c;
+}
 /* 00000000 FOOTER 00000000 */
-
-/* FOOTER - contact section */
-#contact .container {
-  width: 70%;
-  max-width: 800px;
-}
-
-.debug #contact-header {
-  height: 150px;
-  background-color: darkred;
-}
-
-.debug #contact-main {
-  height: 500px;
-  background-color: darkturquoise;
-}
 
 /* FOOTER - info section */
 .debug #info {
