@@ -29,7 +29,25 @@ hr {
   border-radius: 12px;
 }
 
-/* 00000000 FOOTER 00000000 */
+.img_container {
+  position: relative;
+}
+
+.ms_layover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0;
+  background-color: rgba(25, 188, 156, .6);
+  border-radius: 12px;
+  font-size: 4rem;
+  opacity: 0;
+}
+
+#gallery .img_container:hover .ms_layover {
+  opacity: 1;
+}
 
 /* FOOTER - info section */
 #info {
