@@ -11,52 +11,33 @@ nav.navbar {
   padding-bottom: 1.5rem;
 }
 
-nav.navbar .container-fluid {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 nav.navbar a.navbar-brand {
   font-size: 1.3rem;
   font-weight: 900;
-  color: white;
 } 
 
-.navbar-light .navbar-toggler {
-  padding: .30rem .65rem;
-  border-color: lightgrey;
-}
-
-.navbar-toggler-icon {
-  filter: invert(1);
-}
-
-nav.navbar .offcanvas-body a.nav-link {
-  color: white;
-}
-
 /* HEADER - jumbo */
-.debug #jumbo {
-  height: 500px;
+#jumbo {
   background-color: #1abc9c;
   margin-top: 89px;
 }
 
-#jumbo .container {
-  max-width: 540px;
-  height: 100%;
-  background-color: green;
+#jumbo .col img {
+  width: 50%;
+  max-width: 250px;
+}
+
+#jumbo .col hr {
+  width: 70px;
+  border: 2px solid white;
+  opacity: 1;
 }
 
 /* 00000000 MAIN 00000000 */
 
 /* MAIN - portfolio section */
-#portfolio {
-  max-width: 960px;
-}
-
 .debug #portfolio-header {
-  min-height: 160px;
+  height: 160px;
   background-color: lightpink;
 }
 
